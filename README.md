@@ -16,5 +16,6 @@ ts-node main.ts
 
 ### Patterns Covered
 1. Strategy Design Pattern
+2. Observer Design Pattern
 
 **PS: This will always be a work in progress. Will be updating it with new information and examples**
