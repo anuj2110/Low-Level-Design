@@ -22,12 +22,13 @@ ts-node main.ts
 2. Observer Design Pattern
 3. Decorator Design Pattern
 4. Factory Design Pattern
-
+5. Chain Of Responsibility
 ### Questions Solved
 
 1. Parking Lot
 2. Make Stock Notifier
 3. Make Pizza price Calculator
 4. Snakes & Ladders
+5. Logger
 
 **PS: This will always be a work in progress. Will be updating it with new information and examples**
