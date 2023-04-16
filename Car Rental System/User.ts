@@ -1,4 +1,4 @@
-import crypto from 'crypto';
+import { generateId } from './helpers';
 export default class User{
     private id:string
     name:string
@@ -9,7 +9,7 @@ export default class User{
         this.name = name
         this.license = license
         this.bills = bills
-        this.id = crypto.randomBytes(4).toString('hex')
+        this.id = generateId()
     }
 
     getUserInfo(billsRequseted:boolean){

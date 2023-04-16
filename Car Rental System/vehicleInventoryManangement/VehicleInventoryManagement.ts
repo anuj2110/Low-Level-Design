@@ -1,4 +1,5 @@
-import { Vehicle } from "./vehicle/Vehicle";
+import VehicleData from "../types/vehicleDataType";
+import { Vehicle } from "../vehicle/Vehicle";
 
 export default class VehicleInventoryManagement {
   vehicleMap: { [id: string]: Vehicle };
@@ -11,7 +12,9 @@ export default class VehicleInventoryManagement {
     this.vehicleMap[vehicle.getVehicleId()] = vehicle;
   }
 
-  updateVehicle(id: string, vehicleData: any) {}
+  updateVehicle(id: string, vehicleData: VehicleData) {
+    this.vehicleMap[id].setVehicleInfo(vehicleData);
+  }
 
   getVehicleById(id: string) {
     return this.vehicleMap[id];

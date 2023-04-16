@@ -1,7 +1,7 @@
 import Location from "./Location";
 import User from "./User";
+import { generateId } from "./helpers";
 import { Vehicle } from "./vehicle/Vehicle";
-import crypto from "crypto";
 
 export default class Reservation {
   private id: string;
@@ -29,7 +29,7 @@ export default class Reservation {
     (this.dropOffLocaton = dropoffLocation),
       (this.status = status),
       (this.endDate = endDate);
-    this.id = crypto.randomBytes(4).toString("hex");
+    this.id = generateId();
   }
 
   updateReservation(
