@@ -30,5 +30,6 @@ ts-node main.ts
 3. Make Pizza price Calculator
 4. Snakes & Ladders
 5. Logger
+6. Car Rental System
 
 **PS: This will always be a work in progress. Will be updating it with new information and examples**
