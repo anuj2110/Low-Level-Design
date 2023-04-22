@@ -16,7 +16,6 @@ export class Vehicle {
   basis: RentBasis;
 
   constructor(
-    id: string,
     vehicleNumber: string,
     cc: number,
     kilometersDriven: number,
@@ -73,5 +72,7 @@ export class Vehicle {
       vehicleData.status !== null ? vehicleData.status : this.status;
     this.basis = vehicleData.basis !== null ? vehicleData.basis : this.basis;
     this.rent = vehicleData.rent !== null ? vehicleData.rent : this.rent;
+    this.isEngaged =
+      vehicleData.engaged !== null ? vehicleData.engaged : this.isEngaged;
   }
 }

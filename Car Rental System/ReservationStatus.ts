@@ -4,3 +4,5 @@ enum ReservationStatus{
     Completed,
     Cancelled
 }
+
+export default ReservationStatus

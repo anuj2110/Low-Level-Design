@@ -1,9 +1,6 @@
-export default class Location{
-    latitude:number
-    longitude:number
-
-    constructor(latitude:number,longitude:number){
-        this.latitude = latitude
-        this.longitude = longitude
+export default class LocationData{
+    city:string
+    constructor(city:string){
+        this.city = city
     }
 }

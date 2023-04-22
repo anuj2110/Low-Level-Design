@@ -5,7 +5,7 @@ export default class User{
     license:string
     bills:[]
 
-    constructor(name:string,license:string,bills:[]){
+    constructor(name:string,license:string,bills:[] = []){
         this.name = name
         this.license = license
         this.bills = bills
