@@ -22,7 +22,8 @@ ts-node main.ts
 2. Observer Design Pattern
 3. Decorator Design Pattern
 4. Factory Design Pattern
-5. Chain Of Responsibility
+5. Chain Of Responsibility (Logger)
+6. Proxy Design Pattern
 ### Questions Solved
 
 1. Parking Lot
