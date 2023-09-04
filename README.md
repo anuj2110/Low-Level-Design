@@ -1,6 +1,6 @@
 # Low Level Design Repository
 
-### This repository contains pdf notes and codes related to the low level design and design patterns covered [here](https://www.youtube.com/playlist?list=PL6W8uoQQ2c61X_9e6Net0WdYZidm7zooW)
+### This repository contains pdf notes and codes related to the low level design and design patterns covered [here](https://www.youtube.com/playlist?list=PL6W8uoQQ2c61X_9e6Net0WdYZidm7zooW) and [here](https://www.oreilly.com/library/view/head-first-design/9781492077992/)
 
 ### Setup
 
